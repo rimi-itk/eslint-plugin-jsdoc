@@ -548,6 +548,7 @@ selector).
 {"gitdown": "include", "file": "./rules/check-examples.md"}
 {"gitdown": "include", "file": "./rules/check-indentation.md"}
 {"gitdown": "include", "file": "./rules/check-line-alignment.md"}
+{"gitdown": "include", "file": "./rules/check-param-description.md"}
 {"gitdown": "include", "file": "./rules/check-param-names.md"}
 {"gitdown": "include", "file": "./rules/check-property-names.md"}
 {"gitdown": "include", "file": "./rules/check-syntax.md"}

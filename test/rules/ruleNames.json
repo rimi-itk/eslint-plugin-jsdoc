@@ -4,6 +4,7 @@
   "check-examples",
   "check-indentation",
   "check-line-alignment",
+  "check-param-description",
   "check-param-names",
   "check-property-names",
   "check-syntax",

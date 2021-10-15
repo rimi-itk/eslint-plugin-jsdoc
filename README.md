@@ -29,6 +29,7 @@ JSDoc linting rules for ESLint.
         * [`check-examples`](#eslint-plugin-jsdoc-rules-check-examples)
         * [`check-indentation`](#eslint-plugin-jsdoc-rules-check-indentation)
         * [`check-line-alignment`](#eslint-plugin-jsdoc-rules-check-line-alignment)
+        * [`check-param-description`](#eslint-plugin-jsdoc-rules-check-param-description)
         * [`check-param-names`](#eslint-plugin-jsdoc-rules-check-param-names)
         * [`check-property-names`](#eslint-plugin-jsdoc-rules-check-property-names)
         * [`check-syntax`](#eslint-plugin-jsdoc-rules-check-syntax)
@@ -2632,6 +2633,31 @@ const fn = ({ids}) => {}
         */
        const fn = ( lorem, sit ) => {}
 // "jsdoc/check-line-alignment": ["error"|"warn", "always"]
+````
+
+
+<a name="eslint-plugin-jsdoc-rules-check-param-description"></a>
+### <code>check-param-description</code>
+
+|||
+|---|---|
+|Context|everywhere|
+|Tags|``|
+|Recommended|false|
+|Settings||
+|Options||
+
+The following patterns are considered problems:
+
+````js
+
+// Message: 
+````
+
+The following patterns are not considered problems:
+
+````js
+
 ````
 
 
